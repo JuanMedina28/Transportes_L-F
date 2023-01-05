@@ -1,0 +1,31 @@
+name: muyp_p1_flutter
+description: Monitoreo de Unidades y Pasajeros - Parte 1 (APP Flutter)
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: any
+  http: any
+  launchers:
+  firebase_messaging: ^14.1.4
+  firebase_core: ^2.4.0
+  flutter_local_notifications:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: any
+
+flutter:
+  uses-material-design: true
+
+  assets:
+     - images/fg.jpg
